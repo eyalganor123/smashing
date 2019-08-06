@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    test
+
+    <script>
+      // Exc 1
+      
+      function reverseString(str) {
+        var newString="";
+        for (let index = str.length-1; index >=0; index--) {
+          newString+=str[index];
+        }
+        return newString;
+      }
+
+      console.log(reverseString('eyal')); // "laye"
+
+      // Exc 2
+      function isPalindrom(str) {
+
+      }
+
+      console.log(isPalindrom('mom')); // true
+
+      // Exc 3
+      function getElementIndexById(array, index) {
+
+      }
+
+      var myArray = [{id: 0, name: 'eyal'}, {id: 1, name: 'gal'}];
+      var selected = getElementIndexById(myArray, 1);
+
+      console.log(selected); // {id: 1, name: 'gal'}
+    </script>
+  </body>
+</html>
